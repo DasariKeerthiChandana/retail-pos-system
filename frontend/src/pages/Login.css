@@ -1,0 +1,38 @@
+.login-container {
+  height: 100vh;
+  background-image: url("../assets/login-bg.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.login-box button {
+  width: 60%;
+  padding: 10px;
+  background: #04790a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-box button:disabled {
+  /*background: rgb(121, 4, 4);*/
+  cursor: not-allowed;
+}
