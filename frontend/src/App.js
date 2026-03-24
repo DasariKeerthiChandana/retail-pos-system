@@ -1,13 +1,11 @@
-import React, { useState } from "react";
-import Login from "./pages/Login";
-import Dashboard from "./pages/dashboard";
+import React from "react";
+import "./App.css";
+import ProductManagement from "./pages/ProductManagement";
 
 function App() {
-  const [loggedIn, setLoggedIn] = useState(false);
-
   return (
-    <div>
-      {loggedIn ? <Dashboard /> : <Login onLogin={() => setLoggedIn(true)} />}
+    <div className="App">
+      <ProductManagement />
     </div>
   );
 }
